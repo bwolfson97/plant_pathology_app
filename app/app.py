@@ -14,7 +14,7 @@ st.set_option("deprecation.showfileUploaderEncoding", False)
 
 
 def cached_model():
-    return get_model("resnet18_2021-04-07")
+    return get_model("resnet18_2021-04-08")
 
 
 model = cached_model()
